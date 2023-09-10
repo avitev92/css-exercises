@@ -9,7 +9,15 @@
   </head>
   <body>
     <div class="top-text">Style me via the external method!</div>
-    <p style="background-color: green; color: white; font-size: 18px;">I would like to be styled with the internal method, please.</p>
-    <button class="button">Inline Method</button>
+    <p>
+      <style>
+        p {
+          color: white;
+          background-color: green;
+          font-weight: bold;
+      
+        }
+      </style>I would like to be styled with the internal method, please.</p>
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
   </body>
 </html>
